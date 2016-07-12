@@ -7,7 +7,8 @@ Running
 -----------
 
 ```
-erl -s chat_room -pa ../ebin
+erlc -o ebin src/*.erl
+erl -s chat_room -pa ebin
 ```
 
 @Copyright (C) 2015, Ali Yakout
